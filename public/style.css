@@ -1,0 +1,82 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.container-fluid {
+    width: 800px;
+    height: 98%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.nav-tabs-wrapper {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-link {
+    color: #555;
+}
+
+.nav-link.active {
+    color: #000;
+    background: #ddd;
+}
+
+.tab-content {
+    height: fit-content;
+}
+
+.chat-messages {
+    height: calc(100% - 60px);
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.input-group {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.chat-messages {
+    height: 400px;
+    overflow: auto;
+    /* Add scrollbar */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    /* Add border */
+}
+
+.chat-messages div {
+    margin: 5px 0;
+}
+
+.user-message {
+    color: white;
+    background-color: #007bff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    float: right;
+    clear: both;
+}
+
+.ai-message {
+    background-color: #f8f9fa;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    clear: both;
+}
